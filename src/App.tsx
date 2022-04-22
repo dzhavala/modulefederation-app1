@@ -2,10 +2,7 @@ import React from "react";
 import CounterAppOne from "./components/CounterAppOne";
 
 const App = () => (
-	<>
-		<p>APP-1</p>
-		<CounterAppOne />
-	</>
+	<CounterAppOne />
 );
 
 export default App;
